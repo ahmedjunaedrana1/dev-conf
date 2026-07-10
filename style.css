@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-family: "Inter", sans-serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.common-button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px 41px;
+    border: none;
+}
