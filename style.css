@@ -31,3 +31,29 @@ a {
     padding: 12px 41px;
     border: none;
 }
+header{
+    background-image: url('./images/banner.jpg');
+    height: 90vh;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    
+}
+.banner-top{
+    color: white;
+    text-align: center;
+    gap: 10px;
+    
+}
+.main-content{
+    display: grid;
+    text-align: center;
+    gap: 250px;
+}
+h1{
+    margin-bottom: 18px;
+}
