@@ -1,11 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
-body{
-  font-family: "Inter", sans-serif;
 
-}
+
 section{
     padding: 30px 8%;
     max-width: 1200px;
@@ -18,7 +17,7 @@ nav {
     align-items: center;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style: none;
     gap: 15px;
@@ -102,3 +101,76 @@ img{
 .card h5{
     color: #2563EB;
 }
+.price-header{display: grid;
+    text-align: center;
+    gap: 12px;
+}
+.price-header h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+.price-header p{
+    color: #575757;
+    font-size: 16px;
+}
+.cards-container{
+    padding: 48px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+.price-card{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.price-card hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price-card ul{
+    gap: 8px;
+    display: grid;
+    margin-bottom: 20px;
+    margin-left: 16px;   
+}
+.price-card h6, .price-card p{
+    color: #888888;
+}
+.price-button{
+    width: 100%;
+}
+.pro-price-card{
+    background-color: #0D1B2A;
+}
+.pro-price-card h6{
+    color: #93C5FD;
+}
+.pro-price-card h2{
+    color: white;
+}
+.pro-price-card ul{
+    color: #FFFFFF;
+}
+.team-back{
+    background-color: #F8F9FB;
+}
+.price-button{
+    border-radius: 8px;
+    background-color: white;
+    color: blue;
+    border: 2px solid;
+}
+.pro-button{
+    width: 100%;
+    border-radius: 8px;
+}
+.contact-button{border-radius: 8px;
+    background-color: white;
+    color: rgb(7, 7, 8);
+    border: 2px solid;
+    width: 100%;
+
+}
+
