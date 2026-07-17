@@ -315,14 +315,16 @@ img{
     background:#0f1724;
     color:#d1d5db;
     padding:40px 8%;
+    display: grid;
+    
 }
 
 .footer-top{
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items: center;
     flex-wrap:wrap;
-    gap:20px;
+    gap: 30px;
 }
 
 .footer-logo{
@@ -332,9 +334,10 @@ img{
 }
 
 .footer-logo img{
-    width:60px;
+    width:px;
     height:60px;
     border-radius:15px;
+    
 }
 
 .footer-logo h2{
@@ -350,7 +353,7 @@ img{
 
 .footer-social{
     display:flex;
-    gap:15px;
+    gap: 30px;px;
 }
 
 .footer-social a{
